@@ -2,6 +2,41 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## 8.1.0-0 (2026-02-27)
+
+
+### ⚠ BREAKING CHANGES
+
+* This plugin now supports Capacitor 8.
+* update to Capacitor 7 (#620)
+
+### Features
+
+* added `clearEncryptionSecret` method (implements [#283](https://github.com/capacitor-community/sqlite/issues/283)) ([efcd4a7](https://github.com/capacitor-community/sqlite/commit/efcd4a70dd3269d4d88399f5a6ebbc3a7ce52711))
+* Capacitor 8 support ([#675](https://github.com/capacitor-community/sqlite/issues/675)) ([206c0ce](https://github.com/capacitor-community/sqlite/commit/206c0cef5564daded6011e2e078a0707e2d4292c))
+* migration to spm ([07ce222](https://github.com/capacitor-community/sqlite/commit/07ce22264d11d8fd31677482a63db7464f12b38b))
+* **readme:** nuxt3 kysely example ([236fee5](https://github.com/capacitor-community/sqlite/commit/236fee526aeb2be93627c4818e4e82d7aa066a6b))
+* rename plugin ([2989be9](https://github.com/capacitor-community/sqlite/commit/2989be9d74fa287ab950665e979642907588c64c))
+* update to Capacitor 7 ([#620](https://github.com/capacitor-community/sqlite/issues/620)) ([a4ad7ee](https://github.com/capacitor-community/sqlite/commit/a4ad7eef09506e58b59b55e7c05302c991cd46bd))
+* update to v4 ([67e324a](https://github.com/capacitor-community/sqlite/commit/67e324a551d900de7af4a25393edbd07d0dfabc5))
+
+
+### Bug Fixes
+
+* **android:** Apply only required upgrades ([9dacc36](https://github.com/capacitor-community/sqlite/commit/9dacc36121e4658501eb9083eae8b94af8f52e34))
+* **android:** migrate from `android-database-sqlcipher` to `sqlcipher-android` ([#607](https://github.com/capacitor-community/sqlite/issues/607)) ([43c689b](https://github.com/capacitor-community/sqlite/commit/43c689bd51a94227f3dd8ea5121b0ce34f0989bd))
+* **android:** update `androidx.room:room-compiler` to `2.6.1` ([#588](https://github.com/capacitor-community/sqlite/issues/588)) ([21c435a](https://github.com/capacitor-community/sqlite/commit/21c435aaa71582cfdcc0bf258fc4f8237f3df661))
+* **android:** update sqlcipher-android dependency to version 4.10.0 ([#664](https://github.com/capacitor-community/sqlite/issues/664)) ([453b1ba](https://github.com/capacitor-community/sqlite/commit/453b1ba23401e5ecc579ad341b48adac297cbe16))
+* call `stmt.run()` for statement without return ([da8d56e](https://github.com/capacitor-community/sqlite/commit/da8d56e408ccf3d848ab316baca6d47e1824b9fd))
+* Crashes during version upgrade on Android: Added NULL check on _vUpgObject ([86aa4a8](https://github.com/capacitor-community/sqlite/commit/86aa4a8fba30cd8217c6133a8cf3fd4455ab5056))
+* **docs:** use `yarn add` in favor of deprecated `yarn install --save` ([e93776c](https://github.com/capacitor-community/sqlite/commit/e93776c86958c1c1e1b07a54e842ca45b11bf6a6))
+* **electron:** early return `onUpgrade()` ([40e927e](https://github.com/capacitor-community/sqlite/commit/40e927e123f0a25d727d9a28cca599063b9f09f7))
+* **executeTransaction:** fix definition ([a9089f3](https://github.com/capacitor-community/sqlite/commit/a9089f3b5be484a3e95293fa5048ff389ac5745f))
+* **ios:** Apply only required upgrades ([c5b1d34](https://github.com/capacitor-community/sqlite/commit/c5b1d343da0a8f851a499fdbc83c39963b0856c8))
+* promise type ([1173f38](https://github.com/capacitor-community/sqlite/commit/1173f3836514c425c5fefdccbfb60fa04f861745))
+* **readme:** missing closing code symbol ` ([fd15311](https://github.com/capacitor-community/sqlite/commit/fd15311394037eab888395f77e80143292c9d050))
+* Typo and casting ([d49d300](https://github.com/capacitor-community/sqlite/commit/d49d30082ef51cb775cfcbcb7fc4f8998329c8b4))
+
 ## [8.0.0](https://github.com/capacitor-community/sqlite/compare/v7.0.3...v8.0.0) (2026-01-20)
 
 

@@ -1,6 +1,6 @@
 {
   "name": "@semabit/capacitor-community-sqlite",
-  "version": "8.0.0",
+  "version": "8.1.0-0",
   "description": "Community plugin for native & electron SQLite databases",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
