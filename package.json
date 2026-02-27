@@ -11,7 +11,9 @@
     "android/build.gradle",
     "dist/",
     "src/",
-    "ios/Plugin/",
+    "ios/Sources",
+    "ios/Tests",
+    "Package.swift",
     "electron/",
     "CapacitorCommunitySqlite.podspec"
   ],
@@ -38,7 +40,7 @@
   ],
   "scripts": {
     "verify": "npm run verify:ios && npm run verify:android && npm run verify:web && npm run verify:electron",
-    "verify:ios": "cd ios && pod install && xcodebuild -workspace Plugin.xcworkspace -scheme Plugin OTHER_CFLAGS='-DHAVE_GETHOSTUUID=0' && cd ..",
+    "verify:ios": "xcodebuild -scheme CapacitorCommunitySqlite -destination generic/platform=iOS",
     "verify:android": "cd android && ./gradlew clean build test && cd ..",
     "verify:web": "npm run build",
     "verify:electron": "npm run build-electron",
